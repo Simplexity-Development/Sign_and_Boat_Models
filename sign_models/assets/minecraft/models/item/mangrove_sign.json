@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/mangrove_sign"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 2669000 }, "model": "entity_models:item/signs/mangrove_sign_items/mangrove_sign" },
+    { "predicate": { "custom_model_data": 2669001 }, "model": "entity_models:item/signs/mangrove_sign_items/mangrove_wall_sign" },
+    { "predicate": { "custom_model_data": 2669002 }, "model": "entity_models:item/signs/mangrove_sign_items/mangrove_sign_post" }
+  ]
+}

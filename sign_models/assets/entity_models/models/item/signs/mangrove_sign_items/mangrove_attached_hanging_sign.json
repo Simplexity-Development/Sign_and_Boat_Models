@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 32],
+	"textures": {
+		"0": "entity_models:item/signs/hanging/mangrove",
+		"particle": "entity_models:item/signs/hanging/mangrove"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 1],
+			"to": [15, 10, 3],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0.5, 7, 4, 12], "texture": "#0"},
+				"east": {"uv": [0, 7, 0.5, 12], "texture": "#0"},
+				"south": {"uv": [4.5, 7, 8, 12], "texture": "#0"},
+				"west": {"uv": [4, 7, 4.5, 12], "texture": "#0"},
+				"up": {"uv": [4, 6, 7.5, 7], "texture": "#0"},
+				"down": {"uv": [0.5, 6, 4, 7], "texture": "#0"}
+			}
+		},
+		{
+			"from": [1, 10, 2],
+			"to": [15, 16, 2],
+			"faces": {
+				"north": {"uv": [3.25, 6, 6.75, 3], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [0, 0, 1.5, 0], "rotation": 270, "texture": "#missing"},
+				"south": {"uv": [3.25, 3, 6.75, 6], "texture": "#0"},
+				"west": {"uv": [0, 0, 1.5, 0], "rotation": 90, "texture": "#missing"},
+				"up": {"uv": [0, 0, 3.5, 0], "rotation": 180, "texture": "#missing"},
+				"down": {"uv": [0, 0, 3.5, 0], "texture": "#missing"}
+			}
+		}
+	]
+}

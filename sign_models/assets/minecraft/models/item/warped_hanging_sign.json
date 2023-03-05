@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/warped_hanging_sign"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 2669000 }, "model": "entity_models:item/signs/warped_sign_items/warped_wall_hanging_sign" },
+    { "predicate": { "custom_model_data": 2669001 }, "model": "entity_models:item/signs/warped_sign_items/warped_hanging_sign" },
+    { "predicate": { "custom_model_data": 2669002 }, "model": "entity_models:item/signs/warped_sign_items/warped_attached_hanging_sign" }
+  ]
+}

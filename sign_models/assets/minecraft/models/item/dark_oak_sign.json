@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/dark_oak_sign"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 2669000 }, "model": "entity_models:item/signs/dark_oak_sign_items/dark_oak_sign" },
+    { "predicate": { "custom_model_data": 2669001 }, "model": "entity_models:item/signs/dark_oak_sign_items/dark_oak_wall_sign" },
+    { "predicate": { "custom_model_data": 2669002 }, "model": "entity_models:item/signs/dark_oak_sign_items/dark_oak_sign_post" }
+  ]
+}

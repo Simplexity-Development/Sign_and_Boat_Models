@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/mangrove_hanging_sign"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 269000 }, "model": "entity_models:item/signs/mangrove_sign_items/mangrove_wall_hanging_sign" },
+    { "predicate": { "custom_model_data": 269001 }, "model": "entity_models:item/signs/mangrove_sign_items/mangrove_hanging_sign" },
+    { "predicate": { "custom_model_data": 269002 }, "model": "entity_models:item/signs/mangrove_sign_items/mangrove_attached_hanging_sign" }
+  ]
+}

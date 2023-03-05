@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/birch_sign"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 2669000 }, "model": "entity_models:item/signs/birch_sign_items/birch_sign" },
+    { "predicate": { "custom_model_data": 2669001 }, "model": "entity_models:item/signs/birch_sign_items/birch_wall_sign" },
+    { "predicate": { "custom_model_data": 2669002 }, "model": "entity_models:item/signs/birch_sign_items/birch_sign_post" }
+  ]
+}
