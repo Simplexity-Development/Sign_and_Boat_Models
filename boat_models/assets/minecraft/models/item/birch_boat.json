@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/birch_boat"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 2669000 }, "model": "boat_models:birch_boats/birch_boat" },
+    { "predicate": { "custom_model_data": 2669001 }, "model": "boat_models:birch_boats/birch_boat_left_oar" },
+    { "predicate": { "custom_model_data": 2669002 }, "model": "boat_models:birch_boats/birch_boat_no_oars" },
+    { "predicate": { "custom_model_data": 2669003 }, "model": "boat_models:birch_boats/birch_boat_right_oar" },
+    { "predicate": { "custom_model_data": 2669004 }, "model": "boat_models:birch_boats/birch_boat_straight_oars" }
+  ]
+}

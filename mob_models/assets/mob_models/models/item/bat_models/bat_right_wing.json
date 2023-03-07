@@ -1,0 +1,22 @@
+{
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "mob_models:item/mobs/bat"
+	},
+	"elements": [
+		{
+			"name": "rightWing",
+			"from": [10, 5, 4.5],
+			"to": [20, 21, 5.5],
+			"faces": {
+				"north": {"uv": [10.75, 0.25, 13.25, 4.25], "texture": "#0"},
+				"east": {"uv": [10.5, 0.25, 10.75, 4.25], "texture": "#0"},
+				"south": {"uv": [13.25, 0.25, 10.75, 4.25], "texture": "#0"},
+				"west": {"uv": [13.25, 0.25, 13.5, 4.25], "texture": "#0"},
+				"up": {"uv": [13.25, 0.25, 10.75, 0], "texture": "#0"},
+				"down": {"uv": [15.75, 0, 13.25, 0.25], "texture": "#0"}
+			}
+		}
+	]
+}
+

@@ -1,0 +1,21 @@
+{
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "mob_models:item/mobs/axolotl/axolotl_blue"
+	},
+	"elements": [
+		{
+			"name": "tail",
+			"from": [8, 0, 14],
+			"to": [8, 5, 26],
+			"faces": {
+				"north": {"uv": [3.5, 7.75, 3.5, 9], "texture": "#0"},
+				"east": {"uv": [0.5, 7.75, 3.5, 9], "texture": "#0"},
+				"south": {"uv": [6.5, 7.75, 6.5, 9], "texture": "#0"},
+				"west": {"uv": [3.5, 7.75, 0.5, 9], "texture": "#0"},
+				"up": {"uv": [3.5, 7.75, 3.5, 4.75], "texture": "#0"},
+				"down": {"uv": [3.5, 4.75, 3.5, 7.75], "texture": "#0"}
+			}
+		}
+	]
+}

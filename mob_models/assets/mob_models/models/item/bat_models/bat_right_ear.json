@@ -1,0 +1,22 @@
+{
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "mob_models:item/mobs/bat"
+	},
+	"elements": [
+		{
+			"name": "rightEar",
+			"from": [9, 24, 1],
+			"to": [12, 28, 2],
+			"faces": {
+				"north": {"uv": [6.25, 0.25, 7, 1.25], "texture": "#0"},
+				"east": {"uv": [6, 0.25, 6.25, 1.25], "texture": "#0"},
+				"south": {"uv": [7.25, 0.25, 8, 1.25], "texture": "#0"},
+				"west": {"uv": [7, 0.25, 7.25, 1.25], "texture": "#0"},
+				"up": {"uv": [7, 0.25, 6.25, 0], "texture": "#0"},
+				"down": {"uv": [7.75, 0, 7, 0.25], "texture": "#0"}
+			}
+		}
+	]
+}
+			

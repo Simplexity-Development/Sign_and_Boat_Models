@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "mob_models:item/mobs/axolotl/axolotl_gold"
+	},
+	"elements": [
+		{
+			"name": "right_leg",
+			"from": [10, -4, 14],
+			"to": [13, 1, 14],
+			"faces": {
+				"north": {"uv": [0.5, 3.25, 1.25, 4.5], "texture": "#0"},
+				"east": {"uv": [0.5, 3.25, 0.5, 4.5], "texture": "#0"},
+				"south": {"uv": [1.25, 3.25, 2, 4.5], "texture": "#0"},
+				"west": {"uv": [1.25, 3.25, 1.25, 4.5], "texture": "#0"},
+				"up": {"uv": [1.25, 3.25, 0.5, 3.25], "texture": "#0"},
+				"down": {"uv": [2, 3.25, 1.25, 3.25], "texture": "#0"}
+			}
+		}
+	]
+}

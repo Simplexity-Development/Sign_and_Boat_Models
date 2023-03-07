@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/template_spawn_egg",
+  "overrides": [
+    { "predicate": { "custom_model_data": 2669000 }, "model": "mob_models:item/bat_models/bat_full" },
+    { "predicate": { "custom_model_data": 2669001 }, "model": "mob_models:item/bat_models/bat_head" },
+    { "predicate": { "custom_model_data": 2669002 }, "model": "mob_models:item/bat_models/bat_left_ear" },
+    { "predicate": { "custom_model_data": 2669003 }, "model": "mob_models:item/bat_models/bat_right_ear" },
+    { "predicate": { "custom_model_data": 2669004 }, "model": "mob_models:item/bat_models/bat_body_main" },
+    { "predicate": { "custom_model_data": 2669005 }, "model": "mob_models:item/bat_models/bat_body_tail" },
+    { "predicate": { "custom_model_data": 2669006 }, "model": "mob_models:item/bat_models/bat_left_wing" },
+    { "predicate": { "custom_model_data": 2669007 }, "model": "mob_models:item/bat_models/bat_left_wing_tip" },
+    { "predicate": { "custom_model_data": 2669008 }, "model": "mob_models:item/bat_models/bat_right_wing" },
+    { "predicate": { "custom_model_data": 2669009 }, "model": "mob_models:item/bat_models/bat_right_wing_tip" }    
+  ]
+}

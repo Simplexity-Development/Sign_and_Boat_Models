@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/bamboo_raft"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 2669000 }, "model": "boat_models:bamboo_rafts/bamboo_raft" },
+    { "predicate": { "custom_model_data": 2669001 }, "model": "boat_models:bamboo_rafts/bamboo_raft_left_oar" },
+    { "predicate": { "custom_model_data": 2669002 }, "model": "boat_models:bamboo_rafts/bamboo_raft_no_oars" },
+    { "predicate": { "custom_model_data": 2669003 }, "model": "boat_models:bamboo_rafts/bamboo_raft_right_oar" },
+    { "predicate": { "custom_model_data": 2669004 }, "model": "boat_models:bamboo_rafts/bamboo_raft_straight_oars" }
+  ]
+}
