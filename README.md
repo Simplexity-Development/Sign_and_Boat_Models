@@ -6,11 +6,11 @@ This Minecraft resource pack provides usable entity models through Custom Model 
 
 ### Directory Structure
 
-The resource pack is organized by topic, with the individual resource packs contained in their respective directories. Currently, there are three groups: "signs", "boats", and "mobs". The textures for the entities are provided in the <resource pack>:item/ directory, but they are not currently set up to automatically use loaded entity textures.
+The resource pack is organized by topic, with the individual resource packs contained in their respective directories. There are two groups: "signs", and "boats". The textures for the entities are provided in the <resource pack>:item/ directory, but they are not currently set up to automatically use loaded entity textures.
 
 ### Custom Model Data
 
-Each model is tied to the item form of itself, or its spawn egg for mobs. The first model number will always be 2669000, and any subsequent models attached to that item will increment. For example, the following command could be used to summon a cherry hanging sign
+Each model is tied to the item form of itself. The first model number will always be 2669000, and any subsequent models attached to that item will increment. For example, the following command could be used to summon a cherry hanging sign
 
 `/summon minecraft:item_display ~ ~ ~ {item: {id: "minecraft:cherry_hanging_sign", Count: 1b, tag: {CustomModelData: 2669000}}}`
 
