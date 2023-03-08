@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/template_spawn_egg",
-  "overrides": [
-    { "predicate": { "custom_model_data": 2669000 }, "model": "mob_models:item/enderdragon_models/ender_dragon_flat" },
-    { "predicate": { "custom_model_data": 2669001 }, "model": "mob_models:item/enderdragon_models/ender_dragon_posed" }
-  ]
-}
