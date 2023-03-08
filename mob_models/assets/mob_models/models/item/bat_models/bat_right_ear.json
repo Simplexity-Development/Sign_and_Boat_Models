@@ -1,4 +1,5 @@
 {
+	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "mob_models:item/mobs/bat"
@@ -17,6 +18,43 @@
 				"down": {"uv": [7.75, 0, 7, 0.25], "texture": "#0"}
 			}
 		}
-	]
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 25, 4],
+			"translation": [0, -3.25, 1.75],
+			"scale": [0.32, 0.32, 0.32]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 25, 4],
+			"translation": [0, -3.25, 1.75],
+			"scale": [0.32, 0.32, 0.32]
+		},
+		"firstperson_righthand": {
+			"rotation": [-31, 40, 15],
+			"translation": [6, -1, 1.75],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-31, 40, 15],
+			"translation": [6, -1, 1.75],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [-1.5, -1.75, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"head": {
+			"translation": [0, 10.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"fixed": {
+			"translation": [0, -4, 2],
+			"scale": [0.75, 0.75, 0.75]
+		}
+	}
 }
-			

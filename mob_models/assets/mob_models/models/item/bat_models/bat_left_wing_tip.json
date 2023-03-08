@@ -1,4 +1,5 @@
 {
+	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "mob_models:item/mobs/bat"
@@ -6,16 +7,54 @@
 	"elements": [
 		{
 			"name": "leftWingTip",
-			"from": [-12, 8, 4.5],
-			"to": [-4, 20, 5.5],
+			"from": [-11.9, 8, 4],
+			"to": [-3.9, 20, 4],
 			"faces": {
 				"north": {"uv": [8.25, 4.25, 6.25, 7.25], "texture": "#0"},
-				"east": {"uv": [8.5, 4.25, 8.25, 7.25], "texture": "#0"},
+				"east": {"uv": [8.25, 4.5, 11.25, 4.25], "rotation": 90, "texture": "#0"},
 				"south": {"uv": [6.25, 4.25, 8.25, 7.25], "texture": "#0"},
 				"west": {"uv": [6.25, 4.25, 6, 7.25], "texture": "#0"},
 				"up": {"uv": [6.25, 4.25, 8.25, 4], "texture": "#0"},
 				"down": {"uv": [8.25, 4, 10.25, 4.25], "texture": "#0"}
 			}
 		}
-	]
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 25, 4],
+			"translation": [0, -3.25, 1.75],
+			"scale": [0.32, 0.32, 0.32]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 25, 4],
+			"translation": [0, -3.25, 1.75],
+			"scale": [0.32, 0.32, 0.32]
+		},
+		"firstperson_righthand": {
+			"rotation": [-31, 40, 15],
+			"translation": [6, -1, 1.75],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-31, 40, 15],
+			"translation": [6, -1, 1.75],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [-1.5, -1.75, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"head": {
+			"translation": [0, 10.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"fixed": {
+			"translation": [0, -4, 2],
+			"scale": [0.75, 0.75, 0.75]
+		}
+	}
 }
