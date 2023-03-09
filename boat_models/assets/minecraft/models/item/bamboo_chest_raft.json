@@ -6,9 +6,7 @@
   "overrides": [
     { "predicate": { "custom_model_data": 2669000 }, "model": "boat_models:bamboo_chest_rafts/bamboo_chest_raft" },
     { "predicate": { "custom_model_data": 2669001 }, "model": "boat_models:bamboo_chest_rafts/bamboo_chest_raft_just_chest" },
-    { "predicate": { "custom_model_data": 2669002 }, "model": "boat_models:bamboo_chest_rafts/bamboo_chest_raft_left_oar" },
-    { "predicate": { "custom_model_data": 2669003 }, "model": "boat_models:bamboo_chest_rafts/bamboo_chest_raft_no_oars" },
-    { "predicate": { "custom_model_data": 2669004 }, "model": "boat_models:bamboo_chest_rafts/bamboo_chest_raft_right_oar" },
-    { "predicate": { "custom_model_data": 2669005 }, "model": "boat_models:bamboo_chest_rafts/bamboo_chest_raft_straight_oars" }
+    { "predicate": { "custom_model_data": 2669002 }, "model": "boat_models:bamboo_chest_rafts/bamboo_chest_raft_no_oars" },
+    { "predicate": { "custom_model_data": 2669003 }, "model": "boat_models:bamboo_chest_rafts/bamboo_chest_raft_straight_oars" }
   ]
 }

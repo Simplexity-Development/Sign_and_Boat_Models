@@ -6,9 +6,7 @@
   "overrides": [
     { "predicate": { "custom_model_data": 2669000 }, "model": "boat_models:jungle_chest_boats/jungle_chest_boat" },
     { "predicate": { "custom_model_data": 2669001 }, "model": "boat_models:jungle_chest_boats/jungle_chest_boat_just_chest" },
-    { "predicate": { "custom_model_data": 2669002 }, "model": "boat_models:jungle_chest_boats/jungle_chest_boat_left_oar" },
-    { "predicate": { "custom_model_data": 2669003 }, "model": "boat_models:jungle_chest_boats/jungle_chest_boat_no_oars" },
-    { "predicate": { "custom_model_data": 2669004 }, "model": "boat_models:jungle_chest_boats/jungle_chest_boat_right_oar" },
-    { "predicate": { "custom_model_data": 2669005 }, "model": "boat_models:jungle_chest_boats/jungle_chest_boat_straight_oars" }
+    { "predicate": { "custom_model_data": 2669002 }, "model": "boat_models:jungle_chest_boats/jungle_chest_boat_no_oars" },
+    { "predicate": { "custom_model_data": 2669003 }, "model": "boat_models:jungle_chest_boats/jungle_chest_boat_straight_oars" }
   ]
 }
