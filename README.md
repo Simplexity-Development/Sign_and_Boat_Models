@@ -14,6 +14,37 @@ Each model is tied to the item form of itself. The first model number will alway
 
 `/summon minecraft:item_display ~ ~ ~ {item: {id: "minecraft:cherry_hanging_sign", Count: 1b, tag: {CustomModelData: 2669000}}}`
 
+### Model Numbers
+<details>
+<summary>Boats</summary>
+
+|             Type             | Model Data Number | Sign Item  |
+|:----------------------------:|:-----------------:|:----------:|
+|         Normal Boat          |     `2669000`     |    Boat    |
+|           Left Oar           |     `2669001`     |    Boat    | 
+|     Normal Boat No Oars      |     `2669002`     |    Boat    |
+|          Right Oar           |     `2669003`     |    Boat    |
+| Normal Boat Oars Sticking Up |     `2669004`     |    Boat    |
+|      Normal Chest Boat       |     `2669000`     | Chest Boat |
+|      Chest Boat No Boat      |     `2669001`     | Chest Boat |
+|      Chest Boat No Oars      |     `2669002`     | Chest Boat |
+| Chest Boat Oars Sticking Up  |     `2669003`     | Chest Boat |
+
+</details>
+
+<details>
+<summary> Signs</summary>
+
+|         Type          | Model Data Number |  Sign Item   |
+|:---------------------:|:-----------------:|:------------:|
+|         Sign          |     `2669000`     | Normal Sign  |
+|       Wall Sign       |     `2669001`     | Normal Sign  | 
+|       Sign Post       |     `2669002`     | Normal Sign  |
+|   Wall Hanging Sign   |     `2669000`     | Hanging Sign |
+|     Hanging Sign      |     `2669001`     | Hanging Sign |
+| Attached Hanging Sign |     `2669002`     | Hanging Sign |
+</details>
+
 ### License
 
 This resource pack is licensed under the [MIT License](https://github.com/ADHDMC/Entity_Models/blob/master/LICENSE). This means that you are free to use, modify, and distribute the pack for any purpose, including commercial use, as long as you include the original license and copyright notice in any copies or derivative works. The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement.
