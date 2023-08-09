@@ -1,0 +1,18 @@
+{
+  "packs": [
+    {
+      "boat_models": {
+        "name": "boat_models",
+        "version": 1.2,
+        "modrinth id": "PJxIzjjd"
+      }
+    },
+    {
+      "sign_models": {
+        "name": "sign_models",
+        "version": 1.2,
+        "modrinth id": "XoMFbKQV"
+      }
+    }
+  ]
+}

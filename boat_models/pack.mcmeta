@@ -1,6 +1,7 @@
 {
   "pack": {
     "pack_format": 15,
-    "description": "Gives boats models that can be displayed in item displays"
+    "description": "Gives boats models that can be displayed in item displays",
+    "supported_formats": {"min_inclusive": 15, "max_inclusive": 16}
   }
 }

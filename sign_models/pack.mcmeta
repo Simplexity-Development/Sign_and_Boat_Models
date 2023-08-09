@@ -1,6 +1,7 @@
 {
   "pack": {
     "pack_format": 15,
-    "description": "Gives signs some models because they didn't have any"
+    "description": "Gives signs some models because they didn't have any",
+    "supported_formats": {"min_inclusive": 15, "max_inclusive": 16}
   }
 }
