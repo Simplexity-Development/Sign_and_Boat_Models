@@ -1,0 +1,25 @@
+name: Deploy Packs
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Bash
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y zip  # Install zip utility
+
+      - name: Run Deployment Script
+        run: bash deploy_script.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.RHYTHMIC_SSH_KEY_GITHUB }}
+          MODRINTH_TOKEN: ${{ secrets.RHYTHMIC_MODRINTH_PERSONAL_ACCESS_TOKEN }}

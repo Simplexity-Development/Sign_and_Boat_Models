@@ -1,17 +1,29 @@
 {
+  "universal_variables": {
+    "featured" : false,
+    "dependencies" : [],
+    "loaders": "data pack",
+    "primary": true
+  },
   "packs": [
     {
       "boat_models": {
         "name": "boat_models",
         "version": 1.2,
-        "modrinth id": "PJxIzjjd"
+        "changelog" : "Updating to support 23w31a and 23w32a",
+        "minecraft_versions" : ["1.20.1", "23w31a", "23w32a"],
+        "type" : "beta",
+        "modrinth_id": "PJxIzjjd"
       }
     },
     {
       "sign_models": {
         "name": "sign_models",
         "version": 1.2,
-        "modrinth id": "XoMFbKQV"
+        "changelog" : "Updating to support 23w31a and 23w32a",
+        "minecraft_versions" : ["1.20.1", "23w31a", "23w32a"],
+        "type" : "beta",
+        "modrinth_id": "XoMFbKQV"
       }
     }
   ]
