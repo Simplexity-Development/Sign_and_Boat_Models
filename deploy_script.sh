@@ -24,13 +24,14 @@ data=$(cat "$packs_json")
 
 # Universal variables
 echo "INFO: Getting universal_variables"
-featured=$(echo "$data" | jq -r '.universal_variables.featured')
+universal_variables=$(echo "$data" | jq -r '.universal_variables')
+featured=$(echo "$data" | jq -r '.featured')
 echo "UNIVERSAL VARIABLES INFO: 'featured' = $featured"
-dependencies=$(echo "$data" | jq -r '.universal_variables.dependencies')
+dependencies=$(echo "$data" | jq -r '.dependencies')
 echo "UNIVERSAL VARIABLES INFO: 'dependencies' = $dependencies"
-loaders=$(echo "$data" | jq -r '.universal_variables.loaders')
+loaders=$(echo "$data" | jq -r '.loaders')
 echo "UNIVERSAL VARIABLES INFO: 'loaders' = $loaders"
-primary=$(echo "$data" | jq -r 'universal_variables.primary')
+primary=$(echo "$data" | jq -r '.primary')
 echo "UNIVERSAL VARIABLES INFO: 'primary' = $primary"
 # Iterate over packs
 for pack in $(echo "$data" | jq -c '.packs[]'); do
