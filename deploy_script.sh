@@ -30,7 +30,7 @@ dependencies=$(echo "$data" | jq -r '.universal_variables.dependencies')
 echo "UNIVERSAL VARIABLES INFO: 'dependencies' = $dependencies"
 loaders=$(echo "$data" | jq -r '.universal_variables.loaders')
 echo "UNIVERSAL VARIABLES INFO: 'loaders' = $loaders"
-primary=$(echo "$primary" | jq -r 'universal_variables.primary')
+primary=$(echo "$data" | jq -r 'universal_variables.primary')
 echo "UNIVERSAL VARIABLES INFO: 'primary' = $primary"
 # Iterate over packs
 for pack in $(echo "$data" | jq -c '.packs[]'); do
