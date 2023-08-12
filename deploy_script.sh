@@ -20,16 +20,20 @@ compare_versions() {
 
 # Read JSON file
 packs_json="packs.json"  # Adjust the JSON file path as needed
+universal_json="universal_variables.json"
 data=$(cat "$packs_json")
+universal_data=$(cat "$universal_json")
+
+
 
 # Universal variables
-featured=$(echo "$data" | jq -r '.universal_variables.featured')
+featured=$(echo "$universal_data" | jq -r '.universal_variables.featured')
 echo "UNIVERSAL VARIABLES INFO: 'featured' = $featured"
-dependencies=$(echo "$data" | jq -r '.universal_variables.dependencies')
+dependencies=$(echo "$universal_data" | jq -r '.universal_variables.dependencies')
 echo "UNIVERSAL VARIABLES INFO: 'dependencies' = $dependencies"
-loaders=$(echo "$data" | jq -r '.universal_variables.loaders')
+loaders=$(echo "$universal_data" | jq -r '.universal_variables.loaders')
 echo "UNIVERSAL VARIABLES INFO: 'loaders' = $loaders"
-primary=$(echo "$data" | jq -r '.universal_variables.primary')
+primary=$(echo "$universal_data" | jq -r '.universal_variables.primary')
 echo "UNIVERSAL VARIABLES INFO: 'primary' = $primary"
 
 echo "RAW JSON DATA:"

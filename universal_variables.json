@@ -1,0 +1,8 @@
+{
+  "universal_variables": {
+    "featured": false,
+    "dependencies": [ ],
+    "loaders": "data pack",
+    "primary": true
+  }
+}
