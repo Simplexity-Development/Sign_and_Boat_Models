@@ -46,7 +46,7 @@ for pack in $(echo "$data" | jq -c '.packs[]'); do
     echo "PACK VARIABLES INFO: 'version' = $version"
     changelog=$(echo "$pack_data" | jq -r '.changelog')
     echo "PACK VARIABLES INFO: 'changelog' = $changelog"
-    minecraft_versions=$(echo "$pack_data" | jq -r '.minecraft_versions')
+    minecraft_versions=$(echo "$pack_data" | jq -r '.minecraft_versions | join(", ")')
     echo "PACK VARIABLES INFO: 'minecraft_versions' = $minecraft_versions"
     type=$(echo "$pack_data" | jq -r '.type')
     echo "PACK VARIABLES INFO: 'type' = $type"
