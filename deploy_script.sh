@@ -31,6 +31,10 @@ loaders=$(echo "$data" | jq -r '.universal_variables.loaders')
 echo "UNIVERSAL VARIABLES INFO: 'loaders' = $loaders"
 primary=$(echo "$data" | jq -r '.universal_variables.primary')
 echo "UNIVERSAL VARIABLES INFO: 'primary' = $primary"
+
+echo "RAW JSON DATA:"
+echo "$data"
+
 # Iterate over packs
 for pack in $(echo "$data" | jq -c '.packs[]'); do
     echo "STARTING ITERATION OVER PACK - PACK VARIABLES:"
