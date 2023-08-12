@@ -23,29 +23,43 @@ packs_json="packs.json"  # Adjust the JSON file path as needed
 data=$(cat "$packs_json")
 
 # Universal variables
+echo "INFO: Getting universal_variables"
 featured=$(echo "$data" | jq -r '.universal_variables.featured')
+echo "UNIVERSAL VARIABLES INFO: 'featured' = $featured"
 dependencies=$(echo "$data" | jq -r '.universal_variables.dependencies')
+echo "UNIVERSAL VARIABLES INFO: 'dependencies' = $dependencies"
 loaders=$(echo "$data" | jq -r '.universal_variables.loaders')
+echo "UNIVERSAL VARIABLES INFO: 'loaders' = $loaders"
 primary=$(echo "$primary" | jq -r 'universal_variables.primary')
-
+echo "UNIVERSAL VARIABLES INFO: 'primary' = $primary"
 # Iterate over packs
 for pack in $(echo "$data" | jq -c '.packs[]'); do
+    echo "STARTING ITERATION OVER PACK - PACK VARIABLES:"
     name=$(echo "$pack" | jq -r 'keys[0]')
+    echo "PACK VARIABLES INFO: 'name' = $name"
     pack_data=$(echo "$pack" | jq -r ".$name")
+    echo "PACK VARIABLES INFO: 'pack_data' = $pack_data"
     version=$(echo "$pack_data" | jq -r '.version')
+    echo "PACK VARIABLES INFO: 'version' = $version"
     changelog=$(echo "$pack_data" | jq -r '.changelog')
+    echo "PACK VARIABLES INFO: 'changelog' = $changelog"
     minecraft_versions=$(echo "$pack_data" | jq -r '.minecraft_versions')
+    echo "PACK VARIABLES INFO: 'minecraft_versions' = $minecraft_versions"
     type=$(echo "$pack_data" | jq -r '.type')
+    echo "PACK VARIABLES INFO: 'type' = $type"
     modrinth_id=$(echo "$pack_data" | jq -r '.modrinth_id')
+    echo "PACK VARIABLES INFO: 'modrinth_id' = $modrinth_id"
 
      # Create zip file
     zip_filename="${name}_${version}.zip"
+    echo "ZIP INFO: 'zip_filename' = $zip_filename"
     pushd "$name" || exit  # Move into the directory
     zip -r "../$zip_filename" ./*  # Include only the contents of the directory
     popd || exit  # Move back to the original directory
 
     # Calculate size of the zip file
     zip_size=$(du -b "$zip_filename" | awk '{ print $1 }')
+    echo "ZIP INFO: 'zip_size' = $zip_size"
     # Create zip file
     zip -r "$zip_filename" "$name"
 
