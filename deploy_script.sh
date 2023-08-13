@@ -44,19 +44,19 @@ for pack in $(echo "$data" | jq -r '.packs | keys[]'); do
     echo "STARTING ITERATION OVER PACK - PACK VARIABLES:"
     index_number="$pack"
     echo "PACK VARIABLES INFO: 'index_number' = $index_number"
-    pack_data=$(echo "$data" | jq -r "$pack.$index_number")
+    pack_data=$(echo "$data" | jq -r ".packs[$pack][]")
     echo "PACK VARIABLES INFO: 'pack_data' = $pack_data"
-    name=$(echo "pack_data" | jq -r '.name')
+    name=$(echo "$pack_data" | jq -r ".name")
     echo "PACK VARIABLES INFO: 'name' = $name"
-    version=$(echo "$pack_data" | jq -r '.version')
+    version=$(echo "$pack_data" | jq -r ".version")
     echo "PACK VARIABLES INFO: 'version' = $version"
-    changelog=$(echo "$pack_data" | jq -r '.changelog')
+    changelog=$(echo "$pack_data" | jq -r ".changelog")
     echo "PACK VARIABLES INFO: 'changelog' = $changelog"
-    minecraft_versions=$(echo "$pack_data" | jq -r '.minecraft_versions | join(", ")')
+    minecraft_versions=$(echo "$pack_data" | jq -r ".minecraft_versions | join(\", \")")
     echo "PACK VARIABLES INFO: 'minecraft_versions' = $minecraft_versions"
     type=$(echo "$pack_data" | jq -r '.type')
     echo "PACK VARIABLES INFO: 'type' = $type"
-    modrinth_id=$(echo "$pack_data" | jq -r '.modrinth_id')
+    modrinth_id=$(echo "$pack_data" | jq -r ".modrinth_id")
     echo "PACK VARIABLES INFO: 'modrinth_id' = $modrinth_id"
 
      # Create zip file
