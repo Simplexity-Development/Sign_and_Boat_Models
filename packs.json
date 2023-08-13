@@ -1,32 +1,36 @@
 {
   "packs": [
     {
-      "boat_models": {
-        "name": "boat_models",
-        "version": 1.2,
-        "changelog": "Updating to support 23w31a and 23w32a",
-        "minecraft_versions": [
-          "1.20.1",
-          "23w31a",
-          "23w32a"
-        ],
-        "type": "beta",
-        "modrinth_id": "PJxIzjjd"
-      }
+      "directory_name": "boat_models",
+      "version_number": 1.2,
+      "changelog": "Updating to support 23w31a and 23w32a",
+      "game_versions": [
+        "1.20.1",
+        "23w31a",
+        "23w32a"
+      ],
+      "version_type": "beta",
+      "project_id": "PJxIzjjd",
+      "featured": "$featured",
+      "dependencies": "$dependencies",
+      "loaders": "$loaders",
+      "primary": "$primary"
     },
     {
-      "sign_models": {
-        "name": "sign_models",
-        "version": 1.2,
-        "changelog": "Updating to support 23w31a and 23w32a",
-        "minecraft_versions": [
-          "1.20.1",
-          "23w31a",
-          "23w32a"
-        ],
-        "type": "beta",
-        "modrinth_id": "XoMFbKQV"
-      }
+      "directory_name": "sign_models",
+      "version_number": 1.2,
+      "changelog": "Updating to support 23w31a and 23w32a",
+      "game_versions": [
+        "1.20.1",
+        "23w31a",
+        "23w32a"
+      ],
+      "version_type": "beta",
+      "project_id": "XoMFbKQV",
+      "featured": "$featured",
+      "dependencies": "$dependencies",
+      "loaders": "$loaders",
+      "primary": "$primary"
     }
   ]
 }
